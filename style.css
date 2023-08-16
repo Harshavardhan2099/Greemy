@@ -113,3 +113,11 @@ hr
     padding-top: 40px;
 }
 
+.bsell
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
