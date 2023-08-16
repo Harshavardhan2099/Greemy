@@ -1,0 +1,95 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:whitesmoke;
+}
+
+.header
+{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        background-color: rgb(174, 243, 174);
+        z-index: 1;
+        height: 60px;
+}
+
+.navbar
+{
+   display: flex;
+   justify-content: space-between; 
+   gap: 10px;
+   padding: 10px;
+}
+
+button
+{
+    color: white;
+    font-size:x-small;
+    background-color: black;
+    height: 40px;
+    width: 100px;
+}
+
+img
+{
+    float: right;
+}
+
+.info
+{
+    color: grey;
+}
+.forclr
+{
+    background-color: rgb(174, 243, 174) ;
+}
+.about
+{
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.options
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+   
+}
+
+.box
+{
+    width: 300px;
+    height: 250px;
+    border: solid black 1px;
+    text-align: center;
+}
+
+.products
+{
+    background-color: rgb(174, 243, 174);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.onew,.threew
+{
+    position: relative;
+    bottom: 20px;
+}
+
+.twow
+{
+    position: relative;
+    top: 20px;
+}
