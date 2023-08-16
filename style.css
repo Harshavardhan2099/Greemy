@@ -56,6 +56,7 @@ button
     background-color: #dafbf0 ;
     padding: 40px 30px 40px 30px;
 }
+
 .about
 {   
     padding: 20px;
@@ -81,6 +82,7 @@ button
     height: 300px;
     border: solid black 3px;
     text-align: center;
+    padding: 7px;
 }
 
 .box p{
@@ -89,7 +91,7 @@ button
 
 hr
 {
-    
+    border-top: 1px solid black;
 }
 
 .products
@@ -118,3 +120,16 @@ hr
     top: 20px;
 }
 
+.plastic
+{
+    margin: 30px;
+}
+
+.bsell
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
