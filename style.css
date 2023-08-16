@@ -76,11 +76,12 @@ img
     height: 250px;
     border: solid black 1px;
     text-align: center;
+    padding: 7px;
 }
 
 hr
 {
-    
+    border-top: 1px solid black;
 }
 
 .products
@@ -103,5 +104,10 @@ hr
 {
     position: relative;
     top: 20px;
+}
+
+.plastic
+{
+    padding-top: 40px;
 }
 
