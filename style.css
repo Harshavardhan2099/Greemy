@@ -1,4 +1,8 @@
-
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -15,6 +19,7 @@ body{
         background-color: #dafbf0;
         z-index: 1;
         height: 60px;
+        margin-bottom: solid black 1px ;
 }
 
 .navbar
@@ -73,6 +78,11 @@ img
     text-align: center;
 }
 
+hr
+{
+    
+}
+
 .products
 {
     background-color: #dafbf0;
@@ -94,3 +104,4 @@ img
     position: relative;
     top: 20px;
 }
+
