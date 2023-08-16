@@ -1,4 +1,5 @@
 
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color:whitesmoke;
@@ -11,7 +12,7 @@ body{
         align-items: center;
         position: sticky;
         top: 0;
-        background-color: rgb(174, 243, 174);
+        background-color: #dafbf0;
         z-index: 1;
         height: 60px;
 }
@@ -44,7 +45,7 @@ img
 }
 .forclr
 {
-    background-color: rgb(174, 243, 174) ;
+    background-color: #dafbf0 ;
 }
 .about
 {
@@ -74,7 +75,7 @@ img
 
 .products
 {
-    background-color: rgb(174, 243, 174);
+    background-color: #dafbf0;
     text-align: center;
     display: flex;
     flex-direction: row;
