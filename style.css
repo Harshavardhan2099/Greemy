@@ -22,6 +22,7 @@ body{
         margin-bottom: solid black 1px ;
         padding-left: 25px;
         padding-right: 80px;
+        box-shadow: 1px 4px 4px #888888;
 }
 
 .navbar
